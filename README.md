@@ -6,12 +6,12 @@
 ---
 
 ## 1. Estrategia de Ramificación (GitFlow)
-Seleccionamos la estrategia **GitFlow** para asegurar trazabilidad y orden en el desarrollo. Separamos el código de producción (`main`), el entorno de integración (`develop`), las nuevas funcionalidades (`feature/*`) y la corrección de errores críticos (`hotfix/*`).
+Se selecciono la estrategia **GitFlow** para asegurar trazabilidad y orden en el desarrollo. Se separo el código de producción (`main`), el entorno de integración (`develop`), las nuevas funcionalidades (`feature/*`) y la corrección de errores críticos (`hotfix/*`).
 
 ---
 
 ## 2. Convenciones y Buenas Prácticas
-* **Naming de Ramas:** `main`, `develop`, `feature/<nombre>` y `hotfix/<nombre>`.
+* **Naming de Ramas:** `main`, `develop`, `feature/cambio-1/2` y `hotfix/parche-1`.
 * **Mensajes de Commit:** Convención *Conventional Commits* (`feat:`, `fix:`, `docs:`, `ci:`).
 * **Flujo de Integración:** Todo cambio hacia `develop` o `main` se realiza exclusivamente mediante **Pull Requests**.
 
@@ -25,4 +25,4 @@ Seleccionamos la estrategia **GitFlow** para asegurar trazabilidad y orden en el
 ---
 
 ## 4. Reflexión Personal
-Comprender la lógica de las ramas y el pipeline de integración continua fue directo desde el principio. Mi mayor dificultad práctica se centró en recordar los comandos exactos de Git en la terminal y configurar mi cuenta de estudiante de Duoc para los commits de este proyecto. La evaluación me permitió fijar la sintaxis de Git y el flujo completo con Pull Requests en GitHub.
+Comprender la lógica de las ramas y las integraciones continuas fue bastante directo y entendible desde un inicio. Mi mayor dificultad práctica se centró en recordar los comandos exactos de Git en la terminal y configurar mi cuenta de estudiante de Duoc para los commits de este proyecto, debido a que se entrelazaba mi cuenta personal. La evaluación me permitió fijar la sintaxis de Git y el flujo completo con Pull Requests en GitHub.

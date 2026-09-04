@@ -1,0 +1,21 @@
+name: Pipeline CI Microservicio
+
+on:
+  push:
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  ejecucion-ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Ejecutar pruebas del microservicio
+        run: npm test

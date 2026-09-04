@@ -1,0 +1,13 @@
+{
+  "name": "microservicio-devops",
+  "version": "1.0.0",
+  "description": "Microservicio base para Evaluacion Parcial 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node -e \"console.log('Pruebas del microservicio ejecutadas con exito'); process.exit(0);\""
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

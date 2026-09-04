@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
   res.json({ mensaje: "Microservicio DevOps activo", estado: "OK", version: "1.0.0" });
-}); // Cambio 1
+}); // Cambio 2 (Innecesario)
 
 app.listen(PORT, () => {
   console.log(`Servidor ejecutandose en el puerto ${PORT}`);
